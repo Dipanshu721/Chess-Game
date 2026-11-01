@@ -1,0 +1,36 @@
+.square{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10%; 
+    box-sizing: border-box; 
+}
+.interactive{
+    cursor: pointer;
+}
+.black_square{
+    background-color: #769656;
+}
+.white_square{
+    background-color: #EEEED2;
+}
+
+.selected{
+    background-color: #F7F769;
+}
+
+.valid_move{
+    background-image: radial-gradient(circle, rgba(0,0,0,0.2) 20%, transparent 25%);
+}
+
+.capture_hint{
+    background-image: radial-gradient(circle, transparent 50%, rgba(200, 0, 0, 0.4) 55%);
+}
+
+.check {
+    background-color: rgb(233, 76, 76) !important; /* Red color */
+}
